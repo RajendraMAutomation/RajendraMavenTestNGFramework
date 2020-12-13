@@ -1,0 +1,35 @@
+[1213/004000.049:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1213/004000.148:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1213/004000.148:ERROR:process_info.cc(551)] ReadProcessData failed
+[1213/004124.091:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/004124.091:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/004124.091:ERROR:exception_snapshot_win.cc(99)] thread ID 4864 not found in process
+[1213/005739.145:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/005739.145:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/005739.145:ERROR:exception_snapshot_win.cc(99)] thread ID 5468 not found in process
+[1213/010149.012:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/010149.012:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/010149.012:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/010149.012:ERROR:exception_snapshot_win.cc(99)] thread ID 4952 not found in process
+[1213/010547.655:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/010547.656:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/010547.656:ERROR:exception_snapshot_win.cc(99)] thread ID 4952 not found in process
+[1213/011612.826:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/011612.826:ERROR:exception_snapshot_win.cc(99)] thread ID 2180 not found in process
+[1213/011751.480:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/011751.480:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/011751.480:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/011751.480:ERROR:exception_snapshot_win.cc(99)] thread ID 4548 not found in process
+[1213/015212.388:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/015212.389:ERROR:exception_snapshot_win.cc(99)] thread ID 4804 not found in process
+[1213/015212.389:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1213/020448.403:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/020448.403:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/020448.403:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/020448.403:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/020448.403:ERROR:exception_snapshot_win.cc(99)] thread ID 4432 not found in process
+[1213/020635.553:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1213/020635.561:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1213/020635.562:ERROR:process_info.cc(551)] ReadProcessData failed
+[1213/021351.026:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1213/021351.027:ERROR:exception_snapshot_win.cc(99)] thread ID 3080 not found in process
