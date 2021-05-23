@@ -26,12 +26,15 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.Status;
 import com.quality.basepage.TestBase;
 
 public class CommonFunctions extends TestBase{
@@ -287,6 +290,22 @@ public class CommonFunctions extends TestBase{
 			return null;
 		}
 	}
-	
+
+	public boolean isAlertPresent() {
+		//this function can be call to check if an Alert box is present
+		try {
+			driver.switchTo().alert();	//normal method to switched to alert box
+			return true;
+		} catch (NoAlertPresentException Ex) {
+			return false;
+		}
+	}   
+	public static void flushUserMsg(boolean isTestPassed,String PassMsg,String failMsg ) throws IOException {
+		  if(isTestPassed) {
+			  extentTest.log(Status.PASS, PassMsg, MediaEntityBuilder.createScreenCaptureFromPath(takeSnapShot()).build() ); 
+		  }
+		  else
+			  extentTest.log(Status.FAIL, failMsg, MediaEntityBuilder.createScreenCaptureFromPath(takeSnapShot()).build() );
+		}
 	
 }
